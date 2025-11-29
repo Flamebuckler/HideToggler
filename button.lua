@@ -1,7 +1,8 @@
 HideToggler = HideToggler or {}
 
 function HideToggler.createButton()
-    HideToggler.button = LibChatMenuButton.addChatButton("HideTogglerButton", HideToggler.buttonIcon(), HideToggler.buttonTooltip(), function() HideToggler.toggleLanguage() end)
+    HideToggler.button = LibChatMenuButton.addChatButton("HideTogglerButton", HideToggler.buttonIcon(),
+        HideToggler.buttonTooltip(), function() HideToggler.toggleLanguage() end)
 end
 
 function HideToggler.toggleLanguage()
@@ -17,7 +18,7 @@ function HideToggler.toggleLanguage()
         return
     end
 
-     d("HidegroupNecro or Speedrun not found")
+    d("HideGroupNecro or Speedrun not found")
 end
 
 function HideToggler.buttonTooltip()
@@ -25,5 +26,5 @@ function HideToggler.buttonTooltip()
 end
 
 function HideToggler.buttonIcon()
-    return {"HideToggler/imgs/hidegroup.dds","HideToggler/imgs/hidegroup_hover.dds"}
+    return { "HideToggler/imgs/hidegroup.dds", "HideToggler/imgs/hidegroup_hover.dds" }
 end
