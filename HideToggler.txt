@@ -1,8 +1,8 @@
 ## Title: HideToggler
-## APIVersion: 101046
+## APIVersion: 101048
 ## Description: An addon to toggle the group hide
 ## Author: @Flamebuckler
-## Version: 0.1.0
+## Version: 0.2.0
 ## IsLibrary: false
 ## DependsOn: LibChatMenuButton LibAddonMenu-2.0 
 ## OptionalDependsOn: SpeedRun HideGroupNecro
