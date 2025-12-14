@@ -1,8 +1,8 @@
 HideToggler = HideToggler or {}
 HideToggler.name = "HideToggler"
 
-function OnAddOnLoaded(eventCode, addOnName)
-    if (addOnName ~= "HideToggler") then return end
+local function OnAddOnLoaded(eventCode, addOnName)
+    if addOnName ~= HideToggler.name then return end
 
     HideToggler.createButton()
 
